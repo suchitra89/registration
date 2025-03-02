@@ -1,0 +1,126 @@
+body{
+    font-family: Arial,  sans-serif;
+    background-color: #f0f2f5;
+    text-align: center;
+
+    
+    
+}
+.container{
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 60px;
+    color: #1877f2;
+    margin-bottom: 10px;
+}
+.signup-box{
+    background-color: white;
+    padding: 10px;
+    width: 360px;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.signup-box h2 {
+    font-size: 22px;
+    color: #333;
+}
+.signup-box p {
+    font-size: 14px;
+    color: #606770;
+}
+.signup-box h2,p{
+    margin-top: 5px;
+}
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.input-group input {
+    width: 170px;
+    padding: 5px;
+}
+
+.input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.gender {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border: 2px solid black;
+    
+
+
+}
+
+button.signup-btn {
+    background-color: #42b72a;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button.signup-btn:hover {
+    background-color: #36a420;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-link a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.mobile_password input {
+    width: 100%;  
+    padding: 12px;  
+    margin: 10px 0;  
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    font-size: 14px; 
+}
+
+.mobile_password input[type="email"],
+.mobile_password input[type="password"] {
+    height: 45px; 
+    margin-top: 15px; 
+}
+.dob {
+    margin: 15px auto;
+    text-align: start;
+}
+.dateofbirth {
+   margin-bottom: 10px; 
+   display: flex;
+   justify-content: space-between;
+ }
+.year{
+    padding: 10px;
+     width: 110px;
+    justify-content: space-between !important;
+}
+ .labelele { 
+    border: 1px solid gray;
+    padding: 10px;
+ justify-content: space-between;
+width: 90px;
+}
+.gender_selection{
+    display: flex;
+    justify-content: space-between;
+}
